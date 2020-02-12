@@ -50,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/PlayDeck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+            <state relative-caret-position="168">
+              <caret line="16" column="28" selection-end-line="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#543#544#0" expanded="true" />
@@ -64,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/Hand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="303">
-              <caret line="113" column="47" selection-start-line="113" selection-start-column="47" selection-end-line="113" selection-end-column="47" />
+              <caret line="113" column="47" selection-end-line="129" />
               <folding>
                 <element signature="e#1948#1949#0" expanded="true" />
                 <element signature="e#2030#2031#0" expanded="true" />
@@ -225,6 +225,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -347,7 +348,7 @@
       <updated>1581497999572</updated>
       <workItem from="1581498002831" duration="439000" />
       <workItem from="1581499630194" duration="3546000" />
-      <workItem from="1581503399752" duration="10500000" />
+      <workItem from="1581503399752" duration="10712000" />
     </task>
     <servers />
   </component>
@@ -384,7 +385,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14485000" />
+    <option name="totallyTimeSpent" value="14697000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,10 +557,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/PlayDeck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="16" column="28" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/Hand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
-          <caret line="113" column="47" selection-start-line="113" selection-start-column="47" selection-end-line="113" selection-end-column="47" />
+          <caret line="113" column="47" selection-end-line="129" />
           <folding>
             <element signature="e#1948#1949#0" expanded="true" />
             <element signature="e#2030#2031#0" expanded="true" />
@@ -567,18 +580,6 @@
             <element signature="e#2192#2193#0" expanded="true" />
             <element signature="e#2314#2315#0" expanded="true" />
             <element signature="e#2346#2347#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/PlayDeck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
           </folding>
         </state>
       </provider>
