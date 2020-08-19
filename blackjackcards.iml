@@ -20,5 +20,19 @@
     </orderEntry>
     <orderEntry type="library" name="org.assertj:assertj-core:3.15.0" level="project" />
     <orderEntry type="library" name="org.mockito:mockito-core:3.2.4" level="project" />
+    <orderEntry type="library" name="io.cucumber:cucumber-java:4.8.1" level="project" />
+    <orderEntry type="library" name="io.cucumber:cucumber-junit:4.8.1" level="project" />
+    <orderEntry type="module-library">
+      <library name="JUnit5.3">
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.7.0-RC1/junit-jupiter-api-5.7.0-RC1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.7.0-RC1/junit-platform-commons-1.7.0-RC1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

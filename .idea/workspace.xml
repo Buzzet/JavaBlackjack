@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d863542c-66e6-49f9-b671-05bc06d02ab3" name="Default Changelist" comment="" />
+    <list default="true" id="d863542c-66e6-49f9-b671-05bc06d02ab3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/saveactions_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackjackcards.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blackjackcards.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/blackjackcards/com/buzzet/blackjack/CardDeck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/blackjackcards/com/buzzet/blackjack/CardDeck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/blackjackcards/com/buzzet/blackjack/CardFace.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/blackjackcards/com/buzzet/blackjack/CardFace.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/blackjackcards/com/buzzet/blackjack/Hand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/blackjackcards/com/buzzet/blackjack/Hand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/blackjackcards/com/buzzet/blackjack/PlayDeck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/blackjackcards/com/buzzet/blackjack/PlayDeck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/blackjackcards/com/buzzet/test/CardFaceShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/blackjackcards/com/buzzet/test/CardFaceShould.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/blackjackcards/com/buzzet/test/HandShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/blackjackcards/com/buzzet/test/HandShould.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/blackjackcards/com/buzzet/test/PlayDeckShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/blackjackcards/com/buzzet/test/PlayDeckShould.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/buzzet/blackjack/CardDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/buzzet/blackjack/CardDeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/buzzet/blackjack/CardFace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/buzzet/blackjack/CardFace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/buzzet/blackjack/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/buzzet/blackjack/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/buzzet/blackjack/PlayDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/buzzet/blackjack/PlayDeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/buzzet/test/CardFaceShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/buzzet/test/CardFaceShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/buzzet/test/HandShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/buzzet/test/HandShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/buzzet/test/PlayDeckShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/buzzet/test/PlayDeckShould.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,65 +36,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/buzzet/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="558" column="18" selection-start-line="558" selection-start-column="18" selection-end-line="558" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/buzzet/test/PlayDeckShould.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/PlayDeck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="16" column="28" selection-end-line="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/Hand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="113" column="47" selection-end-line="129" />
-              <folding>
-                <element signature="e#1948#1949#0" expanded="true" />
-                <element signature="e#2030#2031#0" expanded="true" />
-                <element signature="e#2152#2153#0" expanded="true" />
-                <element signature="e#2192#2193#0" expanded="true" />
-                <element signature="e#2314#2315#0" expanded="true" />
-                <element signature="e#2346#2347#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -84,8 +47,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/buzzet/test/HandShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="104" column="56" selection-start-line="104" selection-start-column="56" selection-end-line="104" selection-end-column="56" />
+            <state relative-caret-position="270">
+              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="25" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/feature/stepDef/BestimmenKartenwertStepDef.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,22 +71,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/CardDeck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="520">
+              <caret line="75" column="39" lean-forward="true" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4555#4556#0" expanded="true" />
-                <element signature="e#4588#4589#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/CardColor.java">
+        <entry file="file://$PROJECT_DIR$/src/com/buzzet/test/CardDeckShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="330">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,19 +95,54 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/CardFace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="210">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/Card.java">
+        <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/PlayDeck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+            <state relative-caret-position="340">
+              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/feature/resource/spieler_zieht_karten.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/feature/stepDef/SpielerZiehtKarteStepDef.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/buzzet/test/PlayDeckShould.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="70" column="47" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,8 +153,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -165,28 +176,39 @@
         <option value="$PROJECT_DIR$/src/com/buzzet/test/CardFaceShould.java" />
         <option value="$PROJECT_DIR$/src/com/buzzet/test/CardDeckShould.java" />
         <option value="$PROJECT_DIR$/src/com/buzzet/PlayDeck.java" />
-        <option value="$PROJECT_DIR$/src/com/buzzet/test/PlayDeckShould.java" />
         <option value="$PROJECT_DIR$/src/com/buzzet/Players.java" />
         <option value="$PROJECT_DIR$/src/com/buzzet/Card.java" />
         <option value="$PROJECT_DIR$/src/com/buzzet/CardDeck.java" />
-        <option value="$PROJECT_DIR$/src/com/buzzet/test/HandShould.java" />
         <option value="$PROJECT_DIR$/src/com/buzzet/Hand.java" />
         <option value="$PROJECT_DIR$/src/com/buzzet/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/buzzet/feature/aufgeben.feature" />
+        <option value="$PROJECT_DIR$/src/AufgebenStepDef.java" />
+        <option value="$PROJECT_DIR$/src/com/buzzet/feature/stepDef/AufgebenStepDef.java" />
+        <option value="$PROJECT_DIR$/src/com/buzzet/feature/bestimmen_kartenwert.feature" />
+        <option value="$PROJECT_DIR$/src/com/buzzet/feature/stepDef/SpielerZiehtKartenStepDef.java" />
+        <option value="$PROJECT_DIR$/src/com/buzzet/feature/spieler_zieht_karten.feature" />
+        <option value="$PROJECT_DIR$/src/com/buzzet/feature/SpielerZiehtKarteStepDef.java" />
+        <option value="$PROJECT_DIR$/src/com/buzzet/feature/stepDef/SpielerZiehtKarteStepDef.java" />
+        <option value="$PROJECT_DIR$/src/com/buzzet/feature/CucumberRunner.java" />
+        <option value="$PROJECT_DIR$/src/com/buzzet/feature/stepDef/CucumberRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/feature/stepDef/BestimmenKartenwertStepDef.java" />
+        <option value="$PROJECT_DIR$/src/test/feature/resource/bestimmen_kartenwert.feature" />
+        <option value="$PROJECT_DIR$/src/test/feature/stepDef/CucumberRunner.java" />
         <option value="$PROJECT_DIR$/src/com/buzzet/blackjack/Hand.java" />
+        <option value="$PROJECT_DIR$/src/com/buzzet/test/HandShould.java" />
+        <option value="$PROJECT_DIR$/src/test/feature/resource/spieler_zieht_karten.feature" />
+        <option value="$PROJECT_DIR$/src/test/feature/stepDef/SpielerZiehtKarteStepDef.java" />
+        <option value="$PROJECT_DIR$/src/com/buzzet/blackjack/CardFace.java" />
         <option value="$PROJECT_DIR$/src/com/buzzet/blackjack/PlayDeck.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/src/com/buzzet/test/PlayDeckShould.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="3008" />
+    <option name="y" value="251" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -194,30 +216,64 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="blackjackcards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blackjackcards" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaBlackjack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBlackjack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blackjackcards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blackjackcards" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaBlackjack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBlackjack" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blackjackcards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blackjackcards" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaBlackjack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBlackjack" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="buzzet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBlackjack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBlackjack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="buzzet" type="462c0819:PsiDirectoryNode" />
+              <item name="blackjack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBlackjack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBlackjack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="buzzet" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBlackjack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBlackjack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBlackjack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBlackjack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBlackjack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBlackjack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+              <item name="stepDef" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,12 +284,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/feature/resource" />
+      <recent name="$PROJECT_DIR$/src/com/buzzet" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.buzzet" />
       <recent name="com.buzzet.test" />
@@ -251,21 +313,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.buzzet.Main" />
-      <module name="blackjackcards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.buzzet.blackjack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HandShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PlayDeckShould.returnADiamond10OnDraw">
+    <configuration name="PlayDeckShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blackjackcards" />
       <extension name="coverage">
         <pattern>
@@ -274,13 +323,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.buzzet.test" />
-      <option name="MAIN_CLASS_NAME" value="com.buzzet.test.HandShould" />
+      <option name="MAIN_CLASS_NAME" value="com.buzzet.test.PlayDeckShould" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandShould.returnOnlyOneCardOnToStringIfDealersHand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayDeckShould.containEightDecks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blackjackcards" />
       <extension name="coverage">
         <pattern>
@@ -289,14 +338,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.buzzet.test" />
-      <option name="MAIN_CLASS_NAME" value="com.buzzet.test.HandShould" />
-      <option name="METHOD_NAME" value="returnOnlyOneCardOnToStringIfDealersHand" />
+      <option name="MAIN_CLASS_NAME" value="com.buzzet.test.PlayDeckShould" />
+      <option name="METHOD_NAME" value="containEightDecks" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandShould.unhideCardsAfterDraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayDeckShould.containTenDecks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blackjackcards" />
       <extension name="coverage">
         <pattern>
@@ -305,14 +354,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.buzzet.test" />
-      <option name="MAIN_CLASS_NAME" value="com.buzzet.test.HandShould" />
-      <option name="METHOD_NAME" value="unhideCardsAfterDraw" />
+      <option name="MAIN_CLASS_NAME" value="com.buzzet.test.PlayDeckShould" />
+      <option name="METHOD_NAME" value="containTenDecks" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.buzzet.test in blackjackcards" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayDeckShould.returnADiamond10OnDraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blackjackcards" />
       <extension name="coverage">
         <pattern>
@@ -321,18 +370,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.buzzet.test" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="com.buzzet.test.PlayDeckShould" />
+      <option name="METHOD_NAME" value="returnADiamond10OnDraw" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlayDeckShould.returnAKaro10OnDraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blackjackcards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.buzzet.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.buzzet.test" />
+      <option name="MAIN_CLASS_NAME" value="com.buzzet.test.PlayDeckShould" />
+      <option name="METHOD_NAME" value="returnAKaro10OnDraw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.PlayDeckShould.containEightDecks" />
+      <item itemvalue="JUnit.PlayDeckShould.containTenDecks" />
+      <item itemvalue="JUnit.PlayDeckShould" />
+      <item itemvalue="JUnit.PlayDeckShould.returnAKaro10OnDraw" />
+      <item itemvalue="JUnit.PlayDeckShould.returnADiamond10OnDraw" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.com.buzzet.test in blackjackcards" />
-        <item itemvalue="JUnit.HandShould.unhideCardsAfterDraw" />
-        <item itemvalue="JUnit.HandShould" />
-        <item itemvalue="JUnit.HandShould.returnOnlyOneCardOnToStringIfDealersHand" />
+        <item itemvalue="JUnit.PlayDeckShould.returnADiamond10OnDraw" />
+        <item itemvalue="JUnit.PlayDeckShould.returnAKaro10OnDraw" />
+        <item itemvalue="JUnit.PlayDeckShould" />
+        <item itemvalue="JUnit.PlayDeckShould.containTenDecks" />
+        <item itemvalue="JUnit.PlayDeckShould.containEightDecks" />
       </list>
     </recent_temporary>
   </component>
@@ -349,43 +423,50 @@
       <workItem from="1581498002831" duration="439000" />
       <workItem from="1581499630194" duration="3546000" />
       <workItem from="1581503399752" duration="10712000" />
+      <workItem from="1597357837180" duration="4552000" />
+      <workItem from="1597409325154" duration="7954000" />
+      <workItem from="1597671433846" duration="1952000" />
+      <workItem from="1597700913740" duration="410000" />
+      <workItem from="1597842578996" duration="4826000" />
+      <workItem from="1597859368945" duration="1637000" />
+      <workItem from="1597862280903" duration="859000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HandShould - 2020.02.12 at 13h 37m 19s.xml">
-      <configuration name="HandShould" configurationId="JUnit" />
+    <history-entry file="PlayDeckShould_returnAKaro10OnDraw - 2020.08.19 at 16h 31m 46s.xml">
+      <configuration name="PlayDeckShould.returnAKaro10OnDraw" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandShould - 2020.02.12 at 13h 38m 46s.xml">
-      <configuration name="HandShould" configurationId="JUnit" />
+    <history-entry file="PlayDeckShould_returnAKaro10OnDraw - 2020.08.19 at 16h 31m 52s.xml">
+      <configuration name="PlayDeckShould.returnAKaro10OnDraw" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandShould - 2020.02.12 at 13h 40m 46s.xml">
-      <configuration name="HandShould" configurationId="JUnit" />
+    <history-entry file="PlayDeckShould_returnAKaro10OnDraw - 2020.08.19 at 19h 54m 21s.xml">
+      <configuration name="PlayDeckShould.returnAKaro10OnDraw" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandShould - 2020.02.12 at 13h 42m 12s.xml">
-      <configuration name="HandShould" configurationId="JUnit" />
+    <history-entry file="PlayDeckShould_returnAKaro10OnDraw - 2020.08.19 at 20h 23m 59s.xml">
+      <configuration name="PlayDeckShould.returnAKaro10OnDraw" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandShould_unhideCardsAfterDraw - 2020.02.12 at 14h 07m 12s.xml">
-      <configuration name="HandShould.unhideCardsAfterDraw" configurationId="JUnit" />
+    <history-entry file="PlayDeckShould_returnADiamond10OnDraw - 2020.08.19 at 20h 24m 07s.xml">
+      <configuration name="PlayDeckShould.returnADiamond10OnDraw" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandShould_unhideCardsAfterDraw - 2020.02.12 at 14h 08m 06s.xml">
-      <configuration name="HandShould.unhideCardsAfterDraw" configurationId="JUnit" />
+    <history-entry file="PlayDeckShould_returnADiamond10OnDraw - 2020.08.19 at 20h 42m 12s.xml">
+      <configuration name="PlayDeckShould.returnADiamond10OnDraw" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandShould_unhideCardsAfterDraw - 2020.02.12 at 14h 08m 32s.xml">
-      <configuration name="HandShould.unhideCardsAfterDraw" configurationId="JUnit" />
+    <history-entry file="PlayDeckShould_returnADiamond10OnDraw - 2020.08.19 at 20h 43m 40s.xml">
+      <configuration name="PlayDeckShould.returnADiamond10OnDraw" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandShould_unhideCardsAfterDraw - 2020.02.12 at 14h 08m 59s.xml">
-      <configuration name="HandShould.unhideCardsAfterDraw" configurationId="JUnit" />
+    <history-entry file="PlayDeckShould_returnADiamond10OnDraw - 2020.08.19 at 20h 45m 01s.xml">
+      <configuration name="PlayDeckShould.returnADiamond10OnDraw" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandShould_unhideCardsAfterDraw - 2020.02.12 at 14h 09m 20s.xml">
-      <configuration name="HandShould.unhideCardsAfterDraw" configurationId="JUnit" />
+    <history-entry file="PlayDeckShould_returnADiamond10OnDraw - 2020.08.19 at 20h 45m 49s.xml">
+      <configuration name="PlayDeckShould.returnADiamond10OnDraw" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_buzzet_test_in_blackjackcards - 2020.02.12 at 14h 09m 29s.xml">
-      <configuration name="com.buzzet.test in blackjackcards" configurationId="JUnit" />
+    <history-entry file="PlayDeckShould_returnADiamond10OnDraw - 2020.08.19 at 20h 50m 36s.xml">
+      <configuration name="PlayDeckShould.returnADiamond10OnDraw" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14697000" />
+    <option name="totallyTimeSpent" value="36887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,19 +478,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="3008" y="251" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497307" visible="true" weight="0.25679544" />
-      <window_info id="Structure" order="1" sideWeight="0.502693" side_tool="true" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.491453" visible="true" weight="0.095846646" />
+      <window_info id="Structure" order="1" sideWeight="0.508547" side_tool="true" visible="true" weight="0.095846646" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298397" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3049505" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -421,7 +502,6 @@
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32891566" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.36051503" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -431,6 +511,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.36051503" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,16 +527,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/buzzet/test/Arrays.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/buzzet/test/CardFaceShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/AbstractList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -467,40 +538,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buzzet/test/CardDeckShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buzzet/Players.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="558" column="18" selection-start-line="558" selection-start-column="18" selection-end-line="558" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buzzet/test/PlayDeckShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buzzet/Players.java" />
     <entry file="file://$PROJECT_DIR$/src/com/buzzet/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -510,6 +548,36 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7785">
+          <caret line="558" column="18" selection-start-line="558" selection-start-column="18" selection-end-line="558" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buzzet/test/CardFaceShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AufgebenStepDef.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/buzzet/feature/stepDef/AufgebenStepDef.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/buzzet/feature/stepDef/SpielerZiehtKartenStepDef.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/feature/resource/aufgeben.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/feature/resource/karten_austeilen.feature">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/Card.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -528,29 +596,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/CardDeck.java">
+    <entry file="file://$PROJECT_DIR$/src/test/feature/stepDef/CucumberRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="25" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4555#4556#0" expanded="true" />
-            <element signature="e#4588#4589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/feature/resource/bestimmen_kartenwert.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/Hand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buzzet/test/HandShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="25" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/feature/stepDef/BestimmenKartenwertStepDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buzzet/test/CardDeckShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/CardFace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="210">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buzzet/test/HandShould.java">
+    <entry file="file://$PROJECT_DIR$/src/test/feature/resource/spieler_zieht_karten.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="104" column="56" selection-start-line="104" selection-start-column="56" selection-end-line="104" selection-end-column="56" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/feature/stepDef/SpielerZiehtKarteStepDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/CardDeck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="75" column="39" lean-forward="true" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -559,27 +686,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/PlayDeck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="16" column="28" selection-end-line="49" />
+        <state relative-caret-position="340">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/buzzet/blackjack/Hand.java">
+    <entry file="file://$PROJECT_DIR$/src/com/buzzet/test/PlayDeckShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="113" column="47" selection-end-line="129" />
+        <state relative-caret-position="407">
+          <caret line="70" column="47" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="47" />
           <folding>
-            <element signature="e#1948#1949#0" expanded="true" />
-            <element signature="e#2030#2031#0" expanded="true" />
-            <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#2192#2193#0" expanded="true" />
-            <element signature="e#2314#2315#0" expanded="true" />
-            <element signature="e#2346#2347#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -646,7 +768,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>org.mockito:mockito-core:3.2.4</last-edited>
+          <last-edited>io.cucumber:cucumber-junit:4.8.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
