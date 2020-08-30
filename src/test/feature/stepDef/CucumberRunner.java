@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
     "src/test/feature/resource/bestimmen_kartenwert.feature",
     "src/test/feature/resource/erkennen_spieler_gewonnen.feature",
     "src/test/feature/resource/möglichkeit_keine_karte_ziehen.feature",
-    "src/test/feature/resource/erkennen_spieler_verliert.feature"}
+    "src/test/feature/resource/erkennen_spieler_verliert.feature",
+    "src/test/feature/resource/aufgeben.feature"}
 )
 public class CucumberRunner {
 

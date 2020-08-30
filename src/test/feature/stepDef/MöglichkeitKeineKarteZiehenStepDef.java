@@ -36,7 +36,7 @@ public class MöglichkeitKeineKarteZiehenStepDef {
 
   @Dann("kann ich meinen Zug beenden")
   public void kann_ich_meinen_Zug_beenden() {
-    Assertions.assertThat(this.game.status()).contains("Do you want to draw a card? (y/n)");
+    Assertions.assertThat(this.game.status()).contains("Do you want to draw a card? (y/n/f)");
   }
 
 }

@@ -12,6 +12,9 @@ public class Game {
   public static final String ANSI_RED = "\u001B[31m";
   public static final String ANSI_GREEN = "\u001B[32m";
   public static final String ANSI_RESET = "\u001B[0m";
+  private Bank playerBank = new Bank(2000);
+  private boolean startup = true;
+  private boolean forfeit = false;
 
   public Game() {
 
@@ -26,6 +29,10 @@ public class Game {
 
 
   public void start() {
+    if (this.startup) {
+      askForBet();
+      this.startup = false;
+    }
     if (this.dealerHand.value() == 21) {
       this.dealerHand.unhide();
     }
@@ -50,21 +57,27 @@ public class Game {
   }
 
   public String status() {
+    if (this.forfeit) {
+      return "Player forfeit";
+    }
     if ((this.dealerHand.value() == 21 && this.playerHand.value() == 21) || (this.dealerEndedTurn
         && this.dealerEndedTurn && this.playerHand.value() == this.dealerHand.value()) || (this.dealerEndedTurn
         && this.playerEndedTurn && this.dealerHand.value() > 21 && this.playerHand.value() > 21)) {
+      this.playerBank.draw();
       return "Draw";
     }
     if (this.dealerHand.value() > 21 || (this.dealerEndedTurn && this.playerEndedTurn
         && this.dealerHand.value() < this.playerHand
         .value()) && this.playerHand.value() < 21) {
+      this.playerBank.won();
       return ANSI_GREEN + "Player Wins" + ANSI_RESET;
     }
     if ((this.dealerHand.value() == 21 && !this.playerEndedTurn) || (this.dealerHand.value() > this.playerHand.value()
         && this.playerEndedTurn) || this.playerHand.value() > 21) {
+      this.playerBank.lose();
       return ANSI_RED + "Dealer Wins" + ANSI_RESET;
     }
-    return "Do you want to draw a card? (y/n)";
+    return "Do you want to draw a card? (y/n/f)";
   }
 
   public void playerDraws() {
@@ -80,11 +93,29 @@ public class Game {
     final Scanner in = new Scanner(System.in);
     String s = in.nextLine();
     s = s.toLowerCase();
+    if (s.equals("f")) {
+      this.playerBank.forfeit();
+      return false;
+    }
     if (!s.equals("y") && !s.equals("n")) {
       System.out.println("invalid input");
       return askForCard();
     }
     return s.equals("y");
+  }
+
+  public void askForBet() {
+    System.out.println("How much do you want to Bet? Bank: " + this.playerBank.getValue());
+    final Scanner in = new Scanner(System.in);
+    String s = in.nextLine();
+    int value = 0;
+    try {
+      value = Integer.parseInt(s);
+    } catch (Exception e) {
+      System.out.println("Invalid Value, try again!");
+      askForBet();
+    }
+    this.playerBank.bet(value);
   }
 
   public void dealerDraws() {

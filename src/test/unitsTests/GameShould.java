@@ -47,7 +47,7 @@ public class GameShould {
 
   @Before
   public void setInStreams() {
-    this.systemInMock.provideLines("n");
+    this.systemInMock.provideLines("1000", "n");
   }
 
   @After
@@ -152,4 +152,5 @@ public class GameShould {
     this.game.start();
     assertThat(this.outContent.toString()).contains("Player Wins");
   }
+
 }
