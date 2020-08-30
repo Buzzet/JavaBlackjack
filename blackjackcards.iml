@@ -34,5 +34,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="com.github.stefanbirkner:system-rules:1.19.0" level="project" />
+    <orderEntry type="library" name="org.powermock:powermock-module-junit4:2.0.7" level="project" />
+    <orderEntry type="library" name="org.powermock:powermock-module-junit4-rule:2.0.7" level="project" />
   </component>
 </module>

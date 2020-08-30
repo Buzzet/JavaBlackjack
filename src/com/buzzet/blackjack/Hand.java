@@ -69,19 +69,19 @@ public class Hand {
    * @return - basic value
    */
   public int value() {
-    long amountAsses = amountAss();
+    long amountAces = amountAces();
     Integer value = this.hand.stream().map(x -> x.getFace().getValue()).reduce(0, Integer::sum);
-    if (amountAsses <= 0) {
+    if (amountAces <= 0) {
       return value;
     }
-    while (value > 21 && amountAsses > 0) {
+    while (value > 21 && amountAces > 0) {
       value = value - 10;
-      amountAsses--;
+      amountAces--;
     }
     return value;
   }
 
-  private long amountAss() {
+  private long amountAces() {
     return this.hand.stream().filter(x -> x.getFace().isAce()).count();
   }
 

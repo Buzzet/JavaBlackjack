@@ -1,6 +1,8 @@
-package com.buzzet.test;
+package test.unitsTests;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.BDDMockito.given;
 
 import com.buzzet.blackjack.Card;
 import com.buzzet.blackjack.CardColor;
@@ -10,17 +12,15 @@ import com.buzzet.blackjack.PlayDeck;
 import java.util.LinkedList;
 import org.junit.Before;
 import org.junit.Test;
-import org.mockito.BDDMockito;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
 public class PlayDeckShould {
 
 
-  /*@Mock
-  public LinkedList<CardDeck> decks = new LinkedList<>();*/
+  @Mock
+  public LinkedList<CardDeck> decks = new LinkedList<>();
 
   @Mock
   public CardDeck cardDeck;
@@ -65,11 +65,27 @@ public class PlayDeckShould {
 
   @Test
   public void returnADiamond10OnDraw() {
-    //givens
-    LinkedList<CardDeck> sample = this.mockDeck.decks;
+    //given
     Card givenCard = Card.builder().color(CardColor.Diamond).face(CardFace.TEN).build();
-    BDDMockito.given(Mockito.any(CardDeck.class).draw())
-        .willReturn(Card.builder().color(CardColor.Diamond).face(CardFace.TEN).build());
+    given(this.cardDeck.draw())
+        .willReturn(givenCard);
+    given(this.decks.get(anyInt())).willReturn(this.cardDeck);
+    given(this.decks.size()).willReturn(6);
+    //when
+    Card card = this.mockDeck.drawCard();
+    //then
+    assertThat(card.getFace()).isEqualByComparingTo(givenCard.getFace());
+    assertThat(card.getColor()).isEqualByComparingTo(givenCard.getColor());
+  }
+
+  @Test
+  public void returnAHeartAceOnDraw() {
+    //given
+    Card givenCard = Card.builder().color(CardColor.Heart).face(CardFace.ACE).build();
+    given(this.cardDeck.draw())
+        .willReturn(givenCard);
+    given(this.decks.get(anyInt())).willReturn(this.cardDeck);
+    given(this.decks.size()).willReturn(6);
     //when
     Card card = this.mockDeck.drawCard();
     //then
@@ -85,6 +101,7 @@ public class PlayDeckShould {
     final int cardCount = deck.cardCount();
     //then
     assertThat(cardCount).isEqualTo(8 * 52);
+
   }
 
   @Test

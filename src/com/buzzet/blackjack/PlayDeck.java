@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 
 public class PlayDeck {
 
-  public LinkedList<CardDeck> decks = new LinkedList<>();
+  private LinkedList<CardDeck> decks = new LinkedList<>();
 
   /**
    * New Playdeck with the amount of decks you want in it

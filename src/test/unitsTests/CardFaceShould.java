@@ -1,4 +1,4 @@
-package com.buzzet.test;
+package test.unitsTests;
 
 import static com.buzzet.blackjack.CardFace.ACE;
 import static com.buzzet.blackjack.CardFace.EIGHT;
