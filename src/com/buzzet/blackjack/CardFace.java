@@ -13,6 +13,9 @@ public enum CardFace {
     this.value = i;
   }
 
+  /**
+   * @return if the card is an Ace
+   */
   public boolean isAce() {
     return this.value == 11 ? true : false;
   }

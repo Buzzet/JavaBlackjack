@@ -67,10 +67,16 @@ public class CardDeck {
     this.deck = new LinkedList<Card>(Arrays.asList(init));
   }
 
+  /**
+   * @return amount of cards left in the deck
+   */
   public int length() {
     return this.deck.size();
   }
 
+  /**
+   * @return Card that has been drawn
+   */
   public Card draw() {
     final int randomInt = new Random().nextInt(51);
     return this.deck.remove(randomInt);

@@ -32,7 +32,7 @@ public class GameShould {
   Hand dealerHand = new Hand(this.deck, true);
 
   @InjectMocks
-  Game game = new Game();
+  Game game = new Game(true);
 
   private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
   private final ByteArrayOutputStream errContent = new ByteArrayOutputStream();

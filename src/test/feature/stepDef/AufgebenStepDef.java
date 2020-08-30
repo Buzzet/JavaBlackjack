@@ -7,7 +7,7 @@ import io.cucumber.java.de.Wenn;
 import org.assertj.core.api.Assertions;
 
 
-public class Aufgeben {
+public class AufgebenStepDef {
 
   Bank bank;
 

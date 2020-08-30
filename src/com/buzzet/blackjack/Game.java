@@ -15,11 +15,28 @@ public class Game {
   private Bank playerBank = new Bank(2000);
   private boolean startup = true;
   private boolean forfeit = false;
+  private boolean singleGame = false;
 
+  /**
+   * Starts a single game
+   */
   public Game() {
 
   }
 
+  /**
+   * @param singleGame if just one or multiple games are wanted
+   */
+  public Game(boolean singleGame) {
+    this.singleGame = singleGame;
+  }
+
+  /**
+   * Starts a game where dealer and player can't draw new cards
+   *
+   * @param dealerHand - Hand object for the dealers Hand
+   * @param playerHand - Hand object for the players Hand
+   */
   public Game(Hand dealerHand, Hand playerHand) {
     this.dealerHand = dealerHand;
     this.playerHand = playerHand;
@@ -28,6 +45,9 @@ public class Game {
   }
 
 
+  /**
+   * starts the game
+   */
   public void start() {
     if (this.startup) {
       askForBet();
@@ -54,8 +74,29 @@ public class Game {
     if (!this.dealerEndedTurn) {
       dealerDraws();
     }
+    startAgain();
   }
 
+  /**
+   * restarts the game after a round
+   */
+  private void startAgain() {
+    if (!this.singleGame) {
+      this.dealerHand = new Hand(this.deck, true);
+      this.playerHand = new Hand(this.deck, false);
+      this.playerEndedTurn = false;
+      this.dealerEndedTurn = false;
+      this.startup = true;
+      this.forfeit = false;
+      start();
+    }
+  }
+
+  /**
+   * returns the status of the match as string and sets the player bank
+   *
+   * @return String of the current status
+   */
   public String status() {
     if (this.forfeit) {
       return "Player forfeit";
@@ -80,7 +121,10 @@ public class Game {
     return "Do you want to draw a card? (y/n/f)";
   }
 
-  public void playerDraws() {
+  /**
+   * let the player draw
+   */
+  private void playerDraws() {
     if (this.playerHand.value() < 22 && askForCard()) {
       this.playerHand.draw();
     } else {
@@ -89,6 +133,11 @@ public class Game {
     start();
   }
 
+  /**
+   * asks the player for a card
+   *
+   * @return if the player wanted a card or not
+   */
   public boolean askForCard() {
     final Scanner in = new Scanner(System.in);
     String s = in.nextLine();
@@ -104,6 +153,9 @@ public class Game {
     return s.equals("y");
   }
 
+  /**
+   * Asks the player for there bet
+   */
   public void askForBet() {
     System.out.println("How much do you want to Bet? Bank: " + this.playerBank.getValue());
     final Scanner in = new Scanner(System.in);
@@ -118,7 +170,10 @@ public class Game {
     this.playerBank.bet(value);
   }
 
-  public void dealerDraws() {
+  /**
+   * Lets the dealer draw a card until he hits 17 or higher
+   */
+  private void dealerDraws() {
     while (this.dealerHand.value() < 17) {
       this.dealerHand.draw();
     }
